@@ -1,0 +1,13 @@
+meta:
+  tech:
+    runtime: typescript
+    pm: pnpm
+    test: pnpm test
+    lint: pnpm lint
+  contract:
+    default: "对外导出接口签名保持不变，调用方代码不改动"
+  guardrail:
+    max_change_files: 10
+    on_reach_limit: "停止改动，汇报当前进度，等待确认"
+  output:
+    require_test_result: true
