@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "repo-context": {
+      "command": "tsx",
+      "args": ["./repo-context-mcp/src/index.ts"]
+    }
+  }
+}
